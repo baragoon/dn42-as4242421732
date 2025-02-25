@@ -107,6 +107,6 @@ Then push your changes to GitHub (you must fork the repository first if you have
 git push origin main
 ```
 Once approved and merged, we automatically distribute your configuration to the routers in our network. Please allow some time (up to 5 minutes) for the process to complete.
-### 5. How to Remove a Peering
+### 4. How to Remove a Peering
 #### WIP...
 
