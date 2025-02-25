@@ -1,5 +1,5 @@
 # DN42 AS4242421732 - BGP Peers
-Welcome to the official repository for DN42 AS4242421732! This repository contains details about the BGP peering configuration for this Autonomous System within the DN42 network.
+Welcome to the official [repository](https://github.com/baragoon/dn42-as4242421732) for DN42 AS4242421732! This repository contains details about the BGP peering configuration for this Autonomous System within the DN42 network.
 
 DN42 is a virtual private network (VPN) connecting enthusiasts and professionals globally. It is designed to be a testing and development environment for networking, BGP, and related technologies.
 
