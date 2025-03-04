@@ -77,3 +77,15 @@ dn42_peers:
     bgp:
       asn: '4242421855'
       session: 'ipv6'
+
+  - name: 'fr-gnb1.dn42.tobast.fr'
+    contacts: 'contact+dn42@tobast.fr'
+    wireguard:
+      endpoint_address: 'fr-gnb1.dn42.tobast.fr'
+      endpoint_port: '21732'
+      public_key: 'natl1dIaazvoyJvOUP6AxvnMyxtrwfjF0PBaADnQjgI='
+    address:
+      ipv6: 'fe80::53ac:afa5:8f2c:e5cc'
+    bgp:
+      asn: '4242422112'
+      session: 'ipv6'
