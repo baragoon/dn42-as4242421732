@@ -115,3 +115,16 @@ dn42_peers:
     bgp:
       asn: '4242421495'
       session: 'ipv6'
+
+  - name: 'txg.node.cowgl.xyz'
+    contacts: 'littlecow.moomoomoo@gmail.com'
+    wireguard:
+      endpoint_address: 'txg.node.cowgl.xyz'
+      endpoint_port: '31732'
+      public_key: 'mGGBczSVKW+7UKRquI2GkbKrfxiATv9r4uF5WTP+vWI='
+    address:
+      ipv6: 'fe80::3999'
+      ipv4: '172.22.144.64'
+    bgp:
+      asn: '4242423999'
+      session: 'ipv4+ipv6'
