@@ -25,6 +25,18 @@ dn42_peers:
       asn: '4242422246'
       session: 'ipv6'
 
+  - name: 'nl-myb-1.le-fay.org'
+    contacts: 'https://www.le-fay.org/dn42/'
+    wireguard:
+      endpoint_address: 'vtnet0.nl-myb-1.le-fay.org'
+      endpoint_port: '12012'
+      public_key: 'npBTXtWzn8PcREoad5I1jr+boLa858Lz1JW0NM8nkmc='
+    address:
+      ipv6: 'fe80::1'
+    bgp:
+      asn: '4242421495'
+      session: 'ipv6'
+
   - name: 'nl1.420129.xyz'
     contacts: 'https://dn42.m724.eu, dn42@m724.eu, https://t.me/minecon724'
     wireguard:
