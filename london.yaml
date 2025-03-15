@@ -105,9 +105,9 @@ dn42_peers:
       session: 'mp'
 
   - name: 'uk-jmp-2.le-fay.org'
-    contacts: 'ft.dn42@le-fay.org'
+    contacts: 'https://www.le-fay.org/dn42/'
     wireguard:
-      endpoint_address: 'xn0.uk-jmp-2.le-fay.org'
+      endpoint_address: 'uk-jmp-2.le-fay.org'
       endpoint_port: '11804'
       public_key: 'Z/J7rC6QSHTYNgSay6YQfgDjcgpBvsMb+vGl07u6mlo='
     address:
