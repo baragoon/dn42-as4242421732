@@ -87,3 +87,15 @@ dn42_peers:
     bgp:
       asn: '4242423914'
       session: 'mp'
+
+  - name: 'nl-ams1.flap42.eu'
+    contacts: 'https://hcartiaux.github.io/dn42'
+    wireguard:
+      endpoint_address: 'nl-ams1.flap42.eu'
+      endpoint_port: '51825'
+      public_key: 'osOFClUbgPmF9XVWhUtvatWjM0y0ZgTi0xnitirnphA='
+    address:
+      ipv6: 'fe80::105'
+    bgp:
+      asn: '4242420263'
+      session: 'mp'
