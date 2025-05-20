@@ -128,3 +128,16 @@ dn42_peers:
     bgp:
       asn: '4242423999'
       session: 'ipv4+ipv6'
+
+  - name: 'luotianyi.eu'
+    contacts: 'i@luotianyi.eu'
+    wireguard:
+      endpoint_address: '107.172.87.100'
+      endpoint_port: '21732'
+      public_key: 'Eu3QrI2o1LTR3g8lXDYAm1q5Loy7XjfCrpVrg6ol5Ac='
+    address:
+      ipv6: 'fe80::1999:1'
+      ipv4: '172.23.11.40'
+    bgp:
+      asn: '4242421999'
+      session: 'mp'
