@@ -141,3 +141,16 @@ dn42_peers:
     bgp:
       asn: '4242421999'
       session: 'mp'
+
+  - name: 'pfxlabs-uk-01'
+    contacts: 'dn42@prefixlabs.net'
+    wireguard:
+      endpoint_address: 'uk-01.prefixlabs.net'
+      endpoint_port: '21732'
+      public_key: 'Yu1Y4qdSaf+OWPbAoh7PvuM2eWCVbNg84+EX5Q2Zjl4='
+    address:
+      ipv6: 'fe80::1240:1'
+      ipv4: '172.20.209.10'
+    bgp:
+      asn: '4242421240'
+      session: 'mp'
