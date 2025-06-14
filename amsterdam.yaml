@@ -99,3 +99,16 @@ dn42_peers:
     bgp:
       asn: '4242420263'
       session: 'mp'
+
+  - name: 'ams.node.cowgl.xyz'
+    contacts: 'littlecow.moomoomoo@gmail.com'
+    wireguard:
+      endpoint_address: 'ams.node.cowgl.xyz'
+      endpoint_port: '31732'
+      public_key: 'sHPUV74X+hqUK5wFj3m5kCga0rlPCxImUBwZ/oLiEn4='
+    address:
+      ipv6: 'fe80::3:3999'
+      ipv4: '172.22.144.67'
+    bgp:
+      asn: '4242423999'
+      session: 'ipv4+ipv6'
