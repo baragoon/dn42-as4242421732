@@ -25,3 +25,16 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
+
+  - name: 'lax1-us.dn42.6700.cc'
+    contacts: 'https://peer.dn42.6700.cc/'
+    wireguard:
+      endpoint_address: 'lax1-us.dn42.6700.cc'
+      endpoint_port: '21732'
+      public_key: 'QSAeFPotqFpF6fFe3CMrMjrpS5AL54AxWY2w1+Ot2Bo='
+    address:
+      ipv6: 'fe80::3088:193'
+      ipv4: '172.21.100.193'
+    bgp:
+      asn: '4242423088'
+      session: 'mp'
