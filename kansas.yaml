@@ -12,3 +12,16 @@ dn42_peers:
     bgp:
       asn: '4242423914'
       session: 'mp'
+
+  - name: 'router.dal1.routedbits.com'
+    contacts: 'https://dn42.routedbits.com'
+    wireguard:
+      endpoint_address: 'router.dal1.routedbits.com'
+      endpoint_port: '51732'
+      public_key: '8clbJPxK5ylOhFDNGdn/CL5zRWQdf7rXbLeF7j8czFI='
+    address:
+      ipv6: 'fe80::207'
+      ipv4: '172.20.19.68'
+    bgp:
+      asn: '4242420207'
+      session: 'mp'
