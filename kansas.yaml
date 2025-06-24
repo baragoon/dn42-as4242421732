@@ -1,0 +1,14 @@
+dn42_peers:
+
+  - name: 'us3.g-load.eu'
+    contacts: 'https://dn42.g-load.eu'
+    wireguard:
+      endpoint_address: 'us3.g-load.eu'
+      endpoint_port: '21732'
+      public_key: 'sLbzTRr2gfLFb24NPzDOpy8j09Y6zI+a7NkeVMdVSR8='
+    address:
+      ipv6: 'fe80::ade0'
+      ipv4: '172.20.53.103'
+    bgp:
+      asn: '4242423914'
+      session: 'mp'
