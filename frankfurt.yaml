@@ -179,3 +179,16 @@ dn42_peers:
     bgp:
       asn: '4242420088'
       session: 'ipv6'
+
+  - name: 'de1.peer.dn42.leziblog.com'
+    contacts: 'dn42@leziblog.com'
+    wireguard:
+      endpoint_address: 'de1.peer.dn42.leziblog.com'
+      endpoint_port: '21732'
+      public_key: 'Kd5+CvZW3NRvUXpbdqGFt85VzMyReBtnVeDVXae06Qg='
+    address:
+      ipv6: 'fe80::3377'
+      ipv4: '172.22.137.101'
+    bgp:
+      asn: '4242423377'
+      session: 'mp'
