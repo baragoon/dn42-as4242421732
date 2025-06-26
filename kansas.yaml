@@ -38,3 +38,16 @@ dn42_peers:
     bgp:
       asn: '4242423088'
       session: 'mp'
+
+  - name: 'los1-us.peer.dn42.leziblog.com'
+    contacts: 'dn42@leziblog.com'
+    wireguard:
+      endpoint_address: 'los1-us.peer.dn42.leziblog.com'
+      endpoint_port: '21732'
+      public_key: 'Xzt9UrH2moj84QSH0jsw8Zj+jwXwdBLpApe4hHyfnAw='
+    address:
+      ipv6: 'fe80::3377'
+      ipv4: '172.22.137.98'
+    bgp:
+      asn: '4242423377'
+      session: 'mp'
