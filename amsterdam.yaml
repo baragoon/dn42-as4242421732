@@ -75,19 +75,6 @@ dn42_peers:
       asn: '4242423152'
       session: 'mp'
 
-  - name: 'us2.g-load.eu'
-    contacts: 'https://dn42.g-load.eu'
-    wireguard:
-      endpoint_address: 'us2.g-load.eu'
-      endpoint_port: '21732'
-      public_key: '6Cylr9h1xFduAO+5nyXhFI1XJ0+Sw9jCpCDvcqErF1s='
-    address:
-      ipv6: 'fe80::ade0'
-      ipv4: '172.20.53.98'
-    bgp:
-      asn: '4242423914'
-      session: 'mp'
-
   - name: 'nl-ams1.flap42.eu'
     contacts: 'https://hcartiaux.github.io/dn42'
     wireguard:
