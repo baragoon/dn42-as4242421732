@@ -25,3 +25,16 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
+
+  - name: 'pfxlabs-ca-01'
+    contacts: 'dn42@prefixlabs.net'
+    wireguard:
+      endpoint_address: 'ca-01.prefixlabs.net'
+      endpoint_port: '21732'
+      public_key: 'GKUu2Jk49pStCQyK/YUDrGF02JsZhggQBSXk8KlxXAM='
+    address:
+      ipv6: 'fe80::1240:5'
+      ipv4: '172.20.209.14'
+    bgp:
+      asn: '4242421240'
+      session: 'mp'
