@@ -1,0 +1,14 @@
+dn42_peers:
+
+  - name: 'ymq.peer.highdef.network'
+    contacts: 'https://highdef.network'
+    wireguard:
+      endpoint_address: 'ymq.peer.highdef.network'
+      endpoint_port: '21732'
+      public_key: 'YrlNsVP9bbTqNuNyQ/MVFzulZKNW5vMaDMzHVFNXSSE='
+    address:
+      ipv6: 'fe80::123'
+      ipv4: '172.20.229.123'
+    bgp:
+      asn: '4242421080'
+      session: 'mp'
