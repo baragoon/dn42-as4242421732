@@ -18,7 +18,7 @@ dn42_peers:
     wireguard:
       endpoint_address: 'router.tor1.routedbits.com'
       endpoint_port: '51732'
-      public_key: 'JjAHDWR1CgQd1HJNvURrqUECkN++0bzYxlm57VXjlyc='
+      public_key: '+5TlmsmGyXgIAv4Ej8yTum0sHQ+PWNkhcznnC+lv12M='
     address:
       ipv6: 'fe80::207'
       ipv4: '172.20.19.84'
