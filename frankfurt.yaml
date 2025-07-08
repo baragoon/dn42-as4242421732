@@ -204,5 +204,5 @@ dn42_peers:
     bgp:
       asn: '4242423555'
       session: 'ipv4'
-      disabled: 'yes'
+    disabled: 'yes'
 
