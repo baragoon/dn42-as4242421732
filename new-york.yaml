@@ -38,3 +38,15 @@ dn42_peers:
     bgp:
       asn: '4242420150'
       session: 'mp'
+
+  - name: 'nyc1.exploro.one'
+    contacts: 'https://exploro.one'
+    wireguard:
+      endpoint_address: 'nyc1.exploro.one'
+      endpoint_port: '40010'
+      public_key: '55nsn5J0E/RB6Z527Mcfpg7HBxXkZXuzxbRu8uFIBzQ='
+    address:
+      ipv6: 'fe80::1f4e:742a:fcda:6678'
+    bgp:
+      asn: '4242421771'
+      session: 'ipv6'
