@@ -25,3 +25,16 @@ dn42_peers:
     bgp:
       asn: '4242421240'
       session: 'mp'
+
+  - name: 'darkpoint_iad'
+    contacts: 'noc@darkpoint.xyz'
+    wireguard:
+      endpoint_address: 'iad.darkpoint.xyz'
+      endpoint_port: '21732'
+      public_key: '1o0XfQvBM1gqknqzfuOnVmf2RjRTHuyMZYNipSSb2TQ='
+    address:
+      ipv6: 'fe80::150'
+      ipv4: '172.20.132.96'
+    bgp:
+      asn: '4242420150'
+      session: 'mp'
