@@ -97,7 +97,7 @@ dn42_peers:
       endpoint_port: '47003'
       public_key: 'Y0JKYbu/J0hxTS/6/+0P9Noom9Z1Z4wHE/6PX5DNTDs='
     address:
-      ipv6: 'fd06:8a0:4dad::1'
+      ipv6: 'fe80::3555:1'
       ipv4: '172.20.40.33'
     bgp:
       asn: '4242423555'
