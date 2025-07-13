@@ -18,7 +18,11 @@ The repository contains a files called $location.yaml, which lists all the curre
 ```
 amsterdam.yaml
 frankfurt.yaml
+kansas.yaml
 london.yaml
+lviv.yaml
+new-york.yaml
+toronto.yaml
 zurich.yaml
 ```
 ### 3. Add New Peer
