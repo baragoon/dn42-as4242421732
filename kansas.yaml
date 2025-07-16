@@ -64,4 +64,16 @@ dn42_peers:
     bgp:
       asn: '4242421240'
       session: 'mp'
-
+  
+  - name: 'kellertk.dn42'
+    contacts: 'tom@tompkel.net'
+    wireguard:
+      endpoint_address: 'home.tompkel.net'
+      endpoint_port: '13249'
+      public_key: 'c53FpKC1YePAUJ7NAVs6+ikKmIKnY/lZSFhi4NkwjA4='
+      address:
+        ipv6: 'fe80::1732:57'
+        ipv4: '172.22.159.17'
+      bgp:
+        asn: '4242420057'
+        session: 'mp'
