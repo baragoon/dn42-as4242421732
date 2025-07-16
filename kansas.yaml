@@ -71,9 +71,9 @@ dn42_peers:
       endpoint_address: 'home.tompkel.net'
       endpoint_port: '13249'
       public_key: 'c53FpKC1YePAUJ7NAVs6+ikKmIKnY/lZSFhi4NkwjA4='
-      address:
-        ipv6: 'fe80::1732:57'
-        ipv4: '172.22.159.17'
-      bgp:
-        asn: '4242420057'
-        session: 'mp'
+    address:
+      ipv6: 'fe80::1732:57'
+      ipv4: '172.22.159.17'
+    bgp:
+      asn: '4242420057'
+      session: 'mp'
