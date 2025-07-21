@@ -87,3 +87,15 @@ dn42_peers:
     bgp:
       asn: '4242423999'
       session: 'ipv4+ipv6'
+
+  - name: 'ams.nl.dn42.hpg.nz'
+    contacts: 'https://dn42.hpg.nz'
+    wireguard:
+      endpoint_address: 'ams.nl.dn42.hpg.nz'
+      endpoint_port: '21732'
+      public_key: 'h/nl/hlV4dNoAEB9J8qKx89Pz+ef20FBUe0nMq21wlo='
+    address:
+      ipv6: 'fe80::111'
+    bgp:
+      asn: '4242420965'
+      session: 'mp'

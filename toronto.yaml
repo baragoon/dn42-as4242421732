@@ -38,3 +38,15 @@ dn42_peers:
     bgp:
       asn: '4242421240'
       session: 'mp'
+
+  - name: 'mtl1.ca.dn42.hpg.nz'
+    contacts: 'https://dn42.hpg.nz'
+    wireguard:
+      endpoint_address: 'mtl1.ca.dn42.hpg.nz'
+      endpoint_port: '21732'
+      public_key: 'h/ca/+JEAH57QSjA590HT2mEFTuI/cGSgYz6xlJ72yE='
+    address:
+      ipv6: 'fe80::108'
+    bgp:
+      asn: '4242420965'
+      session: 'mp'

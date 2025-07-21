@@ -50,3 +50,15 @@ dn42_peers:
     bgp:
       asn: '4242421771'
       session: 'ipv6'
+
+  - name: 'bos.us.dn42.hpg.nz'
+    contacts: 'https://dn42.hpg.nz'
+    wireguard:
+      endpoint_address: 'bos.us.dn42.hpg.nz'
+      endpoint_port: '21732'
+      public_key: 'h/us/z7XNpLwWKwZyXcxNNG4pPk7WKR0r5I4fExh/1Y='
+    address:
+      ipv6: 'fe80::123'
+    bgp:
+      asn: '4242420965'
+      session: 'mp'
