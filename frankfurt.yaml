@@ -206,3 +206,14 @@ dn42_peers:
       session: 'ipv4'
     disabled: 'yes'
 
+  - name: 'nbg.de.dn42.hpg.nz'
+    contacts: 'https://dn42.hpg.nz'
+    wireguard:
+      endpoint_address: 'nbg.de.dn42.hpg.nz'
+      endpoint_port: '21732'
+      public_key: 'h/de/ltq5r2uWG5alOiZzpM9IpUeYYDGL6FhI2/gVyM='
+    address:
+      ipv6: 'fe80::121'
+    bgp:
+      asn: '4242420965'
+      session: 'mp'
