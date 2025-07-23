@@ -75,10 +75,10 @@ dn42_peers:
       asn: '4242420263'
       session: 'mp'
 
-  - name: 'ams.node.cowgl.xyz'
+  - name: 'v6.lux.node.cowgl.xyz'
     contacts: 'littlecow.moomoomoo@gmail.com'
     wireguard:
-      endpoint_address: 'ams.node.cowgl.xyz'
+      endpoint_address: 'v6.lux.node.cowgl.xyz'
       endpoint_port: '31732'
       public_key: 'sHPUV74X+hqUK5wFj3m5kCga0rlPCxImUBwZ/oLiEn4='
     address:
