@@ -50,3 +50,16 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
+
+  - name: 'tor1.dn42.sidereal.ca'
+    contacts: 'dn42@sidereal.ca'
+    wireguard:
+      endpoint_address: 'tor1.dn42.sidereal.ca'
+      endpoint_port: '21732'
+      public_key: '5gReh4Xjyp2spGGabBQVUBVS/IGSrIHPMNaMG5AK2Q0='
+    address:
+      ipv6: 'fe80::2016'
+      ipv4: '172.23.199.65'
+    bgp:
+      asn: '4242422016'
+      session: 'mp'
