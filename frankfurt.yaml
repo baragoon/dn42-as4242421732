@@ -221,7 +221,7 @@ dn42_peers:
   - name: 'NOT-MNT'
     contacts: 'dn42@diigg.tech'
     wireguard:
-      endpoint_address: 'dn42.diigg.tech'
+      endpoint_address: 'dn42.iputils.de'
       endpoint_port: '25887'
       public_key: 'MJd3RQEM6+uFx1376rpIC99XWanD9e3iE3aFS2wa9TI='
     address:
