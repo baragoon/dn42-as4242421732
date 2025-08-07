@@ -226,7 +226,7 @@ dn42_peers:
       public_key: 'MJd3RQEM6+uFx1376rpIC99XWanD9e3iE3aFS2wa9TI='
     address:
       ipv4: '172.20.184.225'
-      ipv6: 'e80::d311'
+      ipv6: 'fe80::d311'
     bgp:
       asn: '4242420020'
       session: 'ipv4+ipv6'
