@@ -217,3 +217,16 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
+
+  - name: 'NOT-MNT'
+    contacts: 'dn42@diigg.tech'
+    wireguard:
+      endpoint_address: 'dn42.diigg.tech'
+      endpoint_port: '25887'
+      public_key: 'MJd3RQEM6+uFx1376rpIC99XWanD9e3iE3aFS2wa9TI='
+    address:
+      ipv4: '172.20.184.225'
+      ipv6: 'e80::d311'
+    bgp:
+      asn: '4242420020'
+      session: 'ipv4+ipv6'
