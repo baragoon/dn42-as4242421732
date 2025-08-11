@@ -141,16 +141,16 @@ dn42_peers:
       asn: '4242421771'
       session: 'ipv6'
 
-  - name: 'factor2431'
-    contacts: 'factor2431@outlook.com, https://t.me/factor2431'
+  - name: 'factor2431-de-nue'
+    contacts: 'admin@factor2431.com'
     wireguard:
-      endpoint_address: '37.221.197.64'
+      endpoint_address: 'de-nue.factor2431.com'
       endpoint_port: '21732'
       preshared_key: 'eDO6M4hFwP+NAPsr34BT/NMqg7IC6YDBmlcgkB8y4/A='
       public_key: 'RfVDzmpo30+chiO2QTAFTEplBOnAOWemq4SHcrG9GVE='
     address:
       ipv4: '172.22.105.0'
-      ipv6: 'fdf4:be86:71d9:e678:9d5a:4574:9bf9:9f27'
+      ipv6: 'fe80::1534'
     bgp:
       asn: '4242421534'
       session: 'mp'
