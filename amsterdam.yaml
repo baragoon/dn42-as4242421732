@@ -99,3 +99,16 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
+
+  - name: 'sto1.dn42.as26954.net'
+    contacts: 'gotowebsite@as26954.net'
+    wireguard:
+      endpoint_address: 'sto1.dn42.as26954.net'
+      endpoint_port: '51732'
+      public_key: 'x5oTHDhSoZxyNIxJF7ryqNK+a7X/anHvUZVWHbwyIBc='
+    address:
+      ipv6: 'fd58:e18:ef14::198'
+      ipv4: '172.20.237.198'
+    bgp:
+      asn: '26954'
+      session: 'ipv4+ipv6'
