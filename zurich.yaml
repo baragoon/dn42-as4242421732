@@ -12,6 +12,7 @@ dn42_peers:
     bgp:
       asn: '4242423914'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'zrh2-ch.androw.eu'
     contacts: 'https://www.androw.eu/net, noc@androw.eu'
@@ -25,6 +26,7 @@ dn42_peers:
     bgp:
       asn: '4242422575'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'zurich.immibis.com'
     contacts: 'https://immibis.com, dn42@immibis.com'
@@ -63,3 +65,4 @@ dn42_peers:
     bgp:
       asn: '4242423555'
       session: 'mp'
+      enhe: 'no'
