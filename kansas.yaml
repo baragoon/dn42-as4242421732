@@ -22,9 +22,11 @@ dn42_peers:
       public_key: '8clbJPxK5ylOhFDNGdn/CL5zRWQdf7rXbLeF7j8czFI='
     address:
       ipv6: 'fe80::207'
+      ipv4: '172.20.19.68'
     bgp:
       asn: '4242420207'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'lax1-us.dn42.6700.cc'
     contacts: 'https://peer.dn42.6700.cc/'
