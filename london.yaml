@@ -50,9 +50,11 @@ dn42_peers:
       public_key: 'vlqNoUSJ4T2sORBHusdwr9rCtQfdsIJvjV3Y/qBUcgY='
     address:
       ipv6: 'fe80::207'
+      ipv4: '172.20.19.74'
     bgp:
       asn: '4242420207'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'rt0.uk.tatk.network'
     contacts: 'https://tatk.network, noc@tatk.network'
