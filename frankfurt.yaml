@@ -118,9 +118,11 @@ dn42_peers:
       public_key: 'FIk95vqIJxf2ZH750lsV1EybfeC9+V8Bnhn8YWPy/l8='
     address:
       ipv6: 'fe80::207'
+      ipv4: '172.20.19.71'
     bgp:
       asn: '4242420207'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'rt0.de.tatk.network'
     contacts: 'https://tatk.network, noc@tatk.network'
