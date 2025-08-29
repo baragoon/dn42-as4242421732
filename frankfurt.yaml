@@ -12,6 +12,7 @@ dn42_peers:
     bgp:
       asn: '4242422189'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'de01.dn42.lare.cc'
     contacts: 'https://dn42.lare.cc/autopeer'
@@ -25,6 +26,7 @@ dn42_peers:
     bgp:
       asn: '4242423035'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'de1.420129.xyz'
     contacts: 'https://dn42.m724.eu, dn42@m724.eu, https://t.me/minecon724'
@@ -50,6 +52,7 @@ dn42_peers:
     bgp:
       asn: '4242423914'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'dn14.de.surgebytes.com'
     contacts: 'admin@cdubs.tech'
@@ -63,6 +66,7 @@ dn42_peers:
     bgp:
       asn: '4242420566'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'dn42-de-fra1.burble.com'
     contacts: 'https://dn42.burble.com, dn42@burble.com'
@@ -76,6 +80,7 @@ dn42_peers:
     bgp:
       asn: '4242422601'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'dn42-de.maraun.de'
     contacts: 'https://peering.maraun.de, dn42@maraun.de'
@@ -89,6 +94,7 @@ dn42_peers:
     bgp:
       asn: '4242422225'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'frog.catgirls.systems'
     contacts: 'https://catgirls.systems'
@@ -102,6 +108,7 @@ dn42_peers:
     bgp:
       asn: '4242421411'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'router.fra1.routedbits.com'
     contacts: 'https://dn42.routedbits.com'
@@ -115,6 +122,7 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'rt0.de.tatk.network'
     contacts: 'https://tatk.network, noc@tatk.network'
@@ -128,7 +136,8 @@ dn42_peers:
     bgp:
       asn: '4242423152'
       session: 'mp'
-  
+        enhe: 'no'
+
   - name: 'duststars.dn42'
     contacts: 'i@exploro.one'
     wireguard:
@@ -154,6 +163,7 @@ dn42_peers:
     bgp:
       asn: '4242421534'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'pfxlabs-de-01'
     contacts: 'dn42@prefixlabs.net'
@@ -167,6 +177,7 @@ dn42_peers:
     bgp:
       asn: '4242421240'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'de1.peer.dn42.leziblog.com'
     contacts: 'dn42@leziblog.com'
@@ -180,6 +191,7 @@ dn42_peers:
     bgp:
       asn: '4242423377'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'nbg.de.dn42.hpg.nz'
     contacts: 'https://dn42.hpg.nz'
@@ -192,6 +204,7 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'NOT-MNT'
     contacts: 'dn42@diigg.tech'
