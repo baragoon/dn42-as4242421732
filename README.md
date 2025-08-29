@@ -29,11 +29,9 @@ zurich.yaml
 To add a new peering with AS4242421732, follow these steps:
 1. Edit the desired location file: Add your new peering information (name, IPv4, IPv6 (link-local or dn42 IPv6), AS number, session type, WireGuard data, email/other contact).
 
-|:warning: WARNING|
-|:-|
-|**If you're using WireGuard preshared key**|
-
-Add ```preshared_key``` to the WireGuard section:
+> [!IMPORTANT]
+> **If you're using WireGuard preshared key**
+> Add ```preshared_key``` to the WireGuard section:
 ```
     wireguard:
       endpoint_address: '1.1.1.1'
@@ -58,7 +56,7 @@ Add ```preshared_key``` to the WireGuard section:
       session: 'mp'
 ```
 > [!IMPORTANT]
-> BGP enhanced next hop is enabled by default for MP sessions. If you wish not to use it, set "enhe: 'no'" for the BGP part like this:
+> **BGP enhanced next hop is enabled by default for MP sessions**. If you wish not to use it, set "enhe: 'no'" for the BGP part like this:
 
 ```
     bgp:
