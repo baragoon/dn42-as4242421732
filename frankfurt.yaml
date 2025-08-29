@@ -136,7 +136,7 @@ dn42_peers:
     bgp:
       asn: '4242423152'
       session: 'mp'
-        enhe: 'no'
+      enhe: 'no'
 
   - name: 'duststars.dn42'
     contacts: 'i@exploro.one'
