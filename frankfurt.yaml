@@ -8,11 +8,9 @@ dn42_peers:
       public_key: 'FHp0OR4UpAS8/Ra0FUNffTk18soUYCa6NcvZdOgxY0k='
     address:
       ipv6: 'fe80::2189:e9'
-      ipv4: '172.23.91.125'
     bgp:
       asn: '4242422189'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'de01.dn42.lare.cc'
     contacts: 'https://dn42.lare.cc/autopeer'
