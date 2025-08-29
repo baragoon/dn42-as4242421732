@@ -12,6 +12,7 @@ dn42_peers:
     bgp:
       asn: '4242423914'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'pfxlabs-us-01'
     contacts: 'dn42@prefixlabs.net'
@@ -25,6 +26,7 @@ dn42_peers:
     bgp:
       asn: '4242421240'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'darkpoint_iad'
     contacts: 'noc@darkpoint.xyz'
@@ -38,6 +40,7 @@ dn42_peers:
     bgp:
       asn: '4242420150'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'nyc1.exploro.one'
     contacts: 'https://exploro.one'
@@ -62,3 +65,4 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
+      enhe: 'no'
