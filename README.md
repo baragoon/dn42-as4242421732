@@ -57,6 +57,15 @@ Add ```preshared_key``` to the WireGuard section:
       asn: '4242423914'
       session: 'mp'
 ```
+> [!IMPORTANT]
+> BGP enhanced next hop is enabled by default for MP sessions. If you wish not to use it, set "enhe: 'no'" for the BGP part like this:
+
+```
+    bgp:
+      asn: '4242423914'
+      session: 'mp'
+      enhe: 'no'
+```
 #### Example BGP Configuration for IPv6 only session:
 ```
   - name: 'fr1.g-load.eu'
