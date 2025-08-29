@@ -50,7 +50,6 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'rt0.nl.tatk.network'
     contacts: 'https://tatk.network'
