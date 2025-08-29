@@ -12,6 +12,7 @@ dn42_peers:
     bgp:
       asn: '4242422002'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'dn42-uk-lon1.burble.com'
     contacts: 'https://dn42.burble.com, dn42@burble.com'
@@ -25,6 +26,7 @@ dn42_peers:
     bgp:
       asn: '4242422601'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'lon.peer.highdef.network'
     contacts: 'https://highdef.network'
@@ -38,6 +40,7 @@ dn42_peers:
     bgp:
       asn: '4242421080'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'router.lon1.routedbits.com'
     contacts: 'https://dn42.routedbits.com'
@@ -51,6 +54,7 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'rt0.uk.tatk.network'
     contacts: 'https://tatk.network, noc@tatk.network'
@@ -64,6 +68,7 @@ dn42_peers:
     bgp:
       asn: '4242423152'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'uk01.dn42.lare.cc'
     contacts: 'https://dn42.lare.cc/autopeer'
@@ -77,6 +82,7 @@ dn42_peers:
     bgp:
       asn: '4242423035'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'uk1.g-load.eu'
     contacts: 'https://dn42.g-load.eu'
@@ -90,6 +96,7 @@ dn42_peers:
     bgp:
       asn: '4242423914'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'ibj.io'
     contacts: 'dn42@ibj.io'
@@ -103,6 +110,7 @@ dn42_peers:
     bgp:
       asn: '4242420157'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'luotianyi.eu'
     contacts: 'i@luotianyi.eu'
@@ -116,6 +124,7 @@ dn42_peers:
     bgp:
       asn: '4242421999'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'pfxlabs-uk-01'
     contacts: 'dn42@prefixlabs.net'
@@ -129,3 +138,4 @@ dn42_peers:
     bgp:
       asn: '4242421240'
       session: 'mp'
+      enhe: 'no'
