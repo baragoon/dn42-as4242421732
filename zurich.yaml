@@ -1,44 +1,5 @@
 dn42_peers:
 
-  - name: 'dn42-ch-zur1.burble.com'
-    contacts: 'https://dn42.burble.com, dn42@burble.com'
-    wireguard:
-      endpoint_address: 'dn42-ch-zur1.burble.com'
-      endpoint_port: '21732'
-      public_key: 'odXf8louekutDGY+Auze/AWleBl78BdsiGWIsQghZHw='
-    address:
-      ipv6: 'fe80::42:2601:28:1'
-      ipv4: '172.20.129.174'
-    bgp:
-      asn: '4242422601'
-      session: 'mp'
-
-  - name: 'dn42.kolo.dev'
-    contacts: 'https://kolo.dev, https://t.me/kolobus'
-    wireguard:
-      endpoint_address: 'dn42.kolo.dev'
-      endpoint_port: '21732'
-      public_key: 'YY2pQ3Kmqtvh/NimoGLeBFtTqMdzgbMvAoeXJwRyLVQ='
-    address:
-      ipv6: 'fe80::6954'
-      ipv4: '172.20.237.193'
-    bgp:
-      asn: '26954'
-      session: 'mp'
-
-  - name: 'dn42bao.duckdns.org'
-    contacts: 'mario@marioiseli.com'
-    wireguard:
-      endpoint_address: 'dn42bao.duckdns.org'
-      endpoint_port: '50112'
-      public_key: '1pT6AuQJkQdoASgXi84gWSlu6cCZI/tMH+kUYSd3v0I='
-    address:
-      ipv6: 'fe80::2114'
-      ipv4: '172.21.115.65'
-    bgp:
-      asn: '4242422114'
-      session: 'mp'
-
   - name: 'fr1.g-load.eu'
     contacts: 'https://dn42.g-load.eu'
     wireguard:
