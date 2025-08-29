@@ -12,6 +12,7 @@ dn42_peers:
     bgp:
       asn: '4242421080'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'ams01.dn42.ventilaar.net'
     contacts: 'me@ventilaar.nl'
@@ -49,6 +50,7 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'rt0.nl.tatk.network'
     contacts: 'https://tatk.network'
@@ -62,6 +64,7 @@ dn42_peers:
     bgp:
       asn: '4242423152'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'nl-ams1.flap42.eu'
     contacts: 'https://hcartiaux.github.io/dn42'
@@ -74,6 +77,7 @@ dn42_peers:
     bgp:
       asn: '4242420263'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'v6.lux.node.cowgl.xyz'
     contacts: 'littlecow.moomoomoo@gmail.com'
@@ -99,6 +103,7 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'sto1.dn42.as26954.net'
     contacts: 'gotowebsite@as26954.net'
