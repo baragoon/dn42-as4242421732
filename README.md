@@ -55,7 +55,7 @@ To add a new peering with AS4242421732, follow these steps:
       session: 'mp'
 ```
 > [!IMPORTANT]
-> **BGP enhanced next hop is enabled by default for MP sessions**. If you wish not to use it, set "enhe: 'no'" for the BGP part and add IPv4 address like this:
+> **BGP enhanced next hop is enabled by default for MP sessions**. If you wish not to use it, add ```enhe: 'no'``` for the BGP part and add IPv4 address like this:
 
 ```
     address:
