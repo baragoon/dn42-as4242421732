@@ -168,18 +168,6 @@ dn42_peers:
       asn: '4242421240'
       session: 'mp'
 
-  - name: 'furry-star-de-01'
-    contacts: 'admin@furry.blue'
-    wireguard:
-      endpoint_address: 'de01-peer.furry.lv'
-      endpoint_port: '21732'
-      public_key: 'eagcePZjNKnvQqf4u9D+5RHnsR2WkTOKD06MWpy2ZAI='
-    address:
-      ipv6: 'fe80::88'
-    bgp:
-      asn: '4242420088'
-      session: 'ipv6'
-
   - name: 'de1.peer.dn42.leziblog.com'
     contacts: 'dn42@leziblog.com'
     wireguard:
@@ -192,19 +180,6 @@ dn42_peers:
     bgp:
       asn: '4242423377'
       session: 'mp'
-
-  - name: 'slo-01.dn42.kmsbismarck.com'
-    contacts: 'https://t.me/kmsbismarck380mm, kmsbismarck380mm@gmail.com'
-    wireguard:
-      endpoint_address: 'slo-01.dn42.kmsbismarck.com'
-      endpoint_port: '47003'
-      public_key: 'Y0JKYbu/J0hxTS/6/+0P9Noom9Z1Z4wHE/6PX5DNTDs='
-    address:
-      ipv4: '172.20.40.33'
-    bgp:
-      asn: '4242423555'
-      session: 'ipv4'
-    disabled: 'yes'
 
   - name: 'nbg.de.dn42.hpg.nz'
     contacts: 'https://dn42.hpg.nz'
