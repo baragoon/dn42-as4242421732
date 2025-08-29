@@ -8,11 +8,9 @@ dn42_peers:
       public_key: '6Cylr9h1xFduAO+5nyXhFI1XJ0+Sw9jCpCDvcqErF1s='
     address:
       ipv6: 'fe80::ade0'
-      ipv4: '172.20.53.98'
     bgp:
       asn: '4242423914'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'pfxlabs-us-01'
     contacts: 'dn42@prefixlabs.net'
