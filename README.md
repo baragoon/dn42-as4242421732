@@ -50,15 +50,17 @@ To add a new peering with AS4242421732, follow these steps:
       public_key: 'sLbzTRr2gfLFb24NPzDOpy8j09Y6zI+a7NkeVMdVSR8='
     address:
       ipv6: 'fe80::ade0'
-      ipv4: '172.20.53.102'
     bgp:
       asn: '4242423914'
       session: 'mp'
 ```
 > [!IMPORTANT]
-> **BGP enhanced next hop is enabled by default for MP sessions**. If you wish not to use it, set "enhe: 'no'" for the BGP part like this:
+> **BGP enhanced next hop is enabled by default for MP sessions**. If you wish not to use it, set "enhe: 'no'" for the BGP part and add IPv4 address like this:
 
 ```
+    address:
+      ipv6: 'fe80::ade0'
+      ipv4: '172.20.53.102'
     bgp:
       asn: '4242423914'
       session: 'mp'
