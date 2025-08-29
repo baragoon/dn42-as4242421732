@@ -12,6 +12,7 @@ dn42_peers:
     bgp:
       asn: '4242421080'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'router.tor1.routedbits.com'
     contacts: 'https://dn42.routedbits.com'
@@ -25,6 +26,7 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'pfxlabs-ca-01'
     contacts: 'dn42@prefixlabs.net'
@@ -38,6 +40,7 @@ dn42_peers:
     bgp:
       asn: '4242421240'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'mtl1.ca.dn42.hpg.nz'
     contacts: 'https://dn42.hpg.nz'
@@ -50,6 +53,7 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
+      enhe: 'no'
 
   - name: 'tor1.dn42.sidereal.ca'
     contacts: 'dn42@sidereal.ca'
@@ -63,3 +67,4 @@ dn42_peers:
     bgp:
       asn: '4242422016'
       session: 'mp'
+      enhe: 'no'
