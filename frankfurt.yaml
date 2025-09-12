@@ -198,7 +198,6 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'NOT-MNT'
     contacts: 'dn42@diigg.tech'
