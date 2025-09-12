@@ -12,7 +12,6 @@ dn42_peers:
     bgp:
       asn: '4242421080'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'ams01.dn42.ventilaar.net'
     contacts: 'me@ventilaar.nl'
