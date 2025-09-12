@@ -7,8 +7,7 @@ dn42_peers:
       endpoint_port: '21732'
       public_key: 'EdWVXZMdujdL/jX5FZDjkPQPVaLoWt4C8FowNRbuaTU='
     address:
-      ipv6: 'fe80::118'
-      ipv4: '172.20.229.118'
+      ipv6: 'fe80::117'
     bgp:
       asn: '4242421080'
       session: 'mp'
