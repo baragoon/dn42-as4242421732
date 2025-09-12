@@ -99,7 +99,6 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'sto1.dn42.as26954.net'
     contacts: 'gotowebsite@as26954.net'
