@@ -64,15 +64,3 @@ dn42_peers:
       asn: '4242420965'
       session: 'mp'
       enhe: 'no'
-
-  - name: 'chi.peer.highdef.network'
-    contacts: 'https://highdef.network'
-    wireguard:
-      endpoint_address: 'chi.peer.highdef.network'
-      endpoint_port: '21732'
-      public_key: 'u4WJMAoCHIOeh/+6NWMytNygp+/wrMogB+rwyVzXoEg='
-    address:
-      ipv6: 'fe80::113'
-    bgp:
-      asn: '4242421080'
-      session: 'mp'
