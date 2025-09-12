@@ -8,7 +8,6 @@ dn42_peers:
       public_key: 'YrlNsVP9bbTqNuNyQ/MVFzulZKNW5vMaDMzHVFNXSSE='
     address:
       ipv6: 'fe80::123'
-      ipv4: '172.20.229.123'
     bgp:
       asn: '4242421080'
       session: 'mp'
