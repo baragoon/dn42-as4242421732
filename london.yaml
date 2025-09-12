@@ -36,7 +36,6 @@ dn42_peers:
       public_key: 'pEQZQOD67QeWXqrHLrMoCXug/cOXJFMXH5vwQ1cW70s='
     address:
       ipv6: 'fe80::116'
-      ipv4: '172.20.229.116'
     bgp:
       asn: '4242421080'
       session: 'mp'
