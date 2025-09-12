@@ -49,7 +49,6 @@ dn42_peers:
     bgp:
       asn: '4242420965'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'tor1.dn42.sidereal.ca'
     contacts: 'dn42@sidereal.ca'
