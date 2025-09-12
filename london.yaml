@@ -40,7 +40,6 @@ dn42_peers:
     bgp:
       asn: '4242421080'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'router.lon1.routedbits.com'
     contacts: 'https://dn42.routedbits.com'
