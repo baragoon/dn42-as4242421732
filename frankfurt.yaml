@@ -167,11 +167,9 @@ dn42_peers:
       public_key: 'ixeEBfac1BXpjNKbxcgL6Beg9HTgtmq6CjHIfMwNSDw='
     address:
       ipv6: 'fe80::1240:11'
-      ipv4: '172.20.209.19'
     bgp:
       asn: '4242421240'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'de1.peer.dn42.leziblog.com'
     contacts: 'dn42@leziblog.com'
