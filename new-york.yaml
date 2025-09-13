@@ -20,11 +20,9 @@ dn42_peers:
       public_key: 'uRYzFGi+/B6pD0FR2SW3G/OzC5LPJXePNIt0s+nJfW0='
     address:
       ipv6: 'fe80::1240:2'
-      ipv4: '172.20.209.11'
     bgp:
       asn: '4242421240'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'darkpoint_iad'
     contacts: 'noc@darkpoint.xyz'
