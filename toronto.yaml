@@ -24,6 +24,18 @@ dn42_peers:
       asn: '4242420207'
       session: 'mp'
 
+  - name: 'use2.dn42.lare.cc'
+    contacts: 'https://dn42.lare.cc/autopeer'
+    wireguard:
+      endpoint_address: 'use2.dn42.lare.cc'
+      endpoint_port: '21732'
+      public_key: 'AREskFoxP2cd6DXoJ7druDsiWKX+8TwrkQqfi4JxRRw='
+    address:
+      ipv6: 'fe80::3035:137'
+    bgp:
+      asn: '4242423035'
+      session: 'mp'
+
   - name: 'pfxlabs-ca-01'
     contacts: 'dn42@prefixlabs.net'
     wireguard:
