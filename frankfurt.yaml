@@ -20,11 +20,9 @@ dn42_peers:
       public_key: 'OL2LE2feDsFV+fOC4vo4u/1enuxf3m2kydwGRE2rKVs='
     address:
       ipv6: 'fe80::3035:130'
-      ipv4: '172.22.125.130'
     bgp:
       asn: '4242423035'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'de1.420129.xyz'
     contacts: 'https://dn42.m724.eu, dn42@m724.eu, https://t.me/minecon724'
