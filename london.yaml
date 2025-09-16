@@ -74,11 +74,9 @@ dn42_peers:
       public_key: 'RJaU1kRfiOREvKihiDMFpNrEGpN8td3z+UvHxabOlR0='
     address:
       ipv6: 'fe80::3035:138'
-      ipv4: '172.22.125.138'
     bgp:
       asn: '4242423035'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'uk1.g-load.eu'
     contacts: 'https://dn42.g-load.eu'
