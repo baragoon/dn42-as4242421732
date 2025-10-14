@@ -73,3 +73,15 @@ dn42_peers:
       asn: '4242422016'
       session: 'mp'
       enhe: 'no'
+
+  - name: 'ca04.dn42.maiyun.me'
+    contacts: 'dn42admin@maiyun.me'
+    wireguard:
+      endpoint_address: 'ca04.dn42.maiyun.me'
+      endpoint_port: '24212'
+      public_key: 'JNeDKA835kWWa0UIF5mHgeI7jX4hA42SbHMFQug9wSk='
+    address:
+      ipv6: 'fe80::893'
+    bgp:
+      asn: '4242420893'
+      session: 'mp'
