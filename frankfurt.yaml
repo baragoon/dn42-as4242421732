@@ -207,3 +207,15 @@ dn42_peers:
     bgp:
       asn: '4242420020'
       session: 'ipv4+ipv6'
+
+  - name: 'darkpoint_fra'
+    contacts: 'noc@darkpoint.xyz'
+    wireguard:
+      endpoint_address: 'fra.darkpoint.xyz'
+      endpoint_port: '21732'
+      public_key: 'nfoxTtmJdBdxNR3TmfVLG13KA5E+ZtU+uIGCegxrxxw='
+    address:
+      ipv6: 'fe80::150'
+    bgp:
+      asn: '4242420150'
+      session: 'mp'
