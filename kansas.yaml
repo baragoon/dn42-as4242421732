@@ -75,18 +75,3 @@ dn42_peers:
       asn: '4242420057'
       session: 'mp'
       enhe: 'no'
-
-  - name: 'factor2431-us-mnz'
-    contacts: 'admin@factor2431.com'
-    wireguard:
-      endpoint_address: 'us-mnz.factor2431.com'
-      endpoint_port: '21732'
-      preshared_key: 'ZWN/FHtXkhtjVGAFkKqYIhlSdzCtxWcGc4Chye9h1Cg='
-      public_key: 'G2pN3V0dtE/fGltPoOPwEkvZ7wC7TLmpr9gR3x/QUTk='
-    address:
-      ipv4: '172.22.105.1'
-      ipv6: 'fe80::1534'
-    bgp:
-      asn: '4242421534'
-      session: 'mp'
-      enhe: 'no'

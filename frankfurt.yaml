@@ -148,14 +148,12 @@ dn42_peers:
       endpoint_address: 'de-nue.factor2431.com'
       endpoint_port: '21732'
       preshared_key: 'eDO6M4hFwP+NAPsr34BT/NMqg7IC6YDBmlcgkB8y4/A='
-      public_key: 'RfVDzmpo30+chiO2QTAFTEplBOnAOWemq4SHcrG9GVE='
+      public_key: 'I9ph8+xOycyma708SXY1ajm9/zMSBsz6eIKxF41jiHI='
     address:
-      ipv4: '172.22.105.0'
       ipv6: 'fe80::1534'
     bgp:
       asn: '4242421534'
       session: 'mp'
-      enhe: 'no'
 
   - name: 'pfxlabs-de-01'
     contacts: 'dn42@prefixlabs.net'
