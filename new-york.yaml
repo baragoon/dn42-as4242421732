@@ -74,3 +74,15 @@ dn42_peers:
     bgp:
       asn: '4242421534'
       session: 'mp'
+
+  - name: 'buf1.sherpherd.net'
+    contacts: 'haksrpd@sherpherd.net'
+    wireguard:
+      endpoint_address: 'buf1.sherpherd.net'
+      endpoint_port: '21732'
+      public_key: 'PXkGrHooCFnB6N8bD6isgVjhl9GvzD2CLqlA+e2XikM='
+    address:
+      ipv6: 'fe80::3947:7'
+    bgp:
+      asn: '4242423947'
+      session: 'mp'
