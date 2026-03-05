@@ -229,3 +229,16 @@ dn42_peers:
     bgp:
       asn: '4242420123'
       session: 'ipv4+ipv6'
+
+  - name: 'fra1.sherpherd.net'
+    contacts: 'haksrpd@sherpherd.net'
+    wireguard:
+      endpoint_address: 'fra1.sherpherd.net'
+      endpoint_port: '21732'
+      public_key: 'KCd+kXNhe48hwOWng77V9E94PszQBqQvJW42c1P+6nk='
+    address:
+      ipv6: 'fe80::3947:6'
+    bgp:
+      asn: '4242423947'
+      session: 'mp'
+      
