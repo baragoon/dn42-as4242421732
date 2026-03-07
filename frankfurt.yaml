@@ -241,4 +241,15 @@ dn42_peers:
     bgp:
       asn: '4242423947'
       session: 'mp'
-      
+
+  - name: 'de1.dn42.ni.sb'
+    contacts: 'dn42@esd.cc'
+    wireguard:
+      endpoint_address: 'de1.dn42.ni.sb'
+      endpoint_port: '21732'
+      public_key: 'k9F2akSTkbA/GiO59PNW/v0D65ioMYD4P1DqeKSL3FM='
+    address:
+      ipv6: 'fe80::1888'
+    bgp:
+      asn: '4242421888'
+      session: 'mp'
