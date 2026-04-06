@@ -23,3 +23,15 @@ dn42_peers:
     bgp:
       asn: '4242420207'
       session: 'mp'
+
+  - name: 'as-breakgimme-dn42'
+    contacts: 'adam@plock.com, https://breakgim.me'
+    wireguard:
+      endpoint_address: '217.28.146.169'
+      endpoint_port: '21732'
+      public_key: 'lmbTK8ePBUDK40erLNvy/6JWsC8AHhDKiA1J3l/2lVU='
+    address:
+      ipv6: 'fe80::1717'
+    bgp:
+      asn: '4242421717'
+      session: 'mp'
