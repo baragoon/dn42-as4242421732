@@ -253,3 +253,16 @@ dn42_peers:
     bgp:
       asn: '4242421888'
       session: 'mp'
+
+  - name: 'miyuzaki_fr'
+    contacts: 'a.karmokar@vyos.io'
+    wireguard:
+      endpoint_address: '129.151.232.30'
+      endpoint_port: '42436'
+      public_key: 'NJbQQVPkfMf1B501Mu1y5lj5RusoQIboeeOCNNSFF2k='
+    address:
+      ipv6: 'fd79:20e:eb5d::1'
+      ipv4: '172.20.178.1'
+    bgp:
+      asn: '4242420769'
+      session: 'ipv4+ipv6'
