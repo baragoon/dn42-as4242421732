@@ -112,3 +112,16 @@ dn42_peers:
     bgp:
       asn: '26954'
       session: 'ipv4+ipv6'
+
+  - name: 'uk.dn42.cloudc.dev'
+    contacts: 'cloudc001@outlook.com'
+    wireguard:
+      endpoint_address: 'uk.dn42.cloudc.dev'
+      endpoint_port: '21732'
+      public_key: 'b9BF2pBj3Uk958jzSUIIPzKN2DLpED/JldkSo4S+VAM='
+    address:
+      ipv6: 'fe80::3777'
+      ipv4: '172.22.107.6'
+    bgp:
+      asn: '4242423777'
+      session: 'ipv4+ipv6'
