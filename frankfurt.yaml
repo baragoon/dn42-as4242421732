@@ -266,3 +266,15 @@ dn42_peers:
     bgp:
       asn: '4242420769'
       session: 'ipv4+ipv6'
+
+  - name: 's3.headscarf175.net'
+    contacts: 'headscarf175@pm.me'
+    wireguard:
+      endpoint_address: 's3.headscarf175.net'
+      endpoint_port: '21732'
+      public_key: '5Cd+Qg30+FbCQGuLWigm5lSTqK9lgR6o6iSmooI8Fkw='
+    address:
+      ipv6: 'fe80::842'
+    bgp:
+      asn: '4242420842'
+      session: 'mp'

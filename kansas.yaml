@@ -75,3 +75,15 @@ dn42_peers:
       asn: '4242420057'
       session: 'mp'
       enhe: 'no'
+
+  - name: 's2.headscarf175.net'
+    contacts: 'headscarf175@pm.me'
+    wireguard:
+      endpoint_address: 's2.headscarf175.net'
+      endpoint_port: '21732'
+      public_key: 'urPzSwUlqcJiJjpgz9JGBgLSwnSDEHsE4+ZnixQXpDI='
+    address:
+      ipv6: 'fe80::842'
+    bgp:
+      asn: '4242420842'
+      session: 'mp'
