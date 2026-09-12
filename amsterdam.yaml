@@ -125,3 +125,16 @@ dn42_peers:
     bgp:
       asn: '4242423777'
       session: 'ipv4+ipv6'
+
+  - name: 'v6.ams-1.dn42.sironeko.moe'
+    contacts: 'dn42@sironeko.moe'
+    wireguard:
+      endpoint_address: 'v6.ams-1.dn42.sironeko.moe'
+      endpoint_port: '21732'
+      preshared_key: 'kp0k7dx19Pfv4wyjp1L5Hd3K9aPzKB4gzXjnDcyVh30='
+      public_key: 'ete63S4xKnOREjm/ogWqzgjghbvRTlPOGvRSn2IlnxI='
+    address:
+      ipv6: 'fe80::1573'
+    bgp:
+      asn: '4242421573'
+      session: 'mp'
