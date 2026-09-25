@@ -87,3 +87,15 @@ dn42_peers:
       asn: '4242423947'
       session: 'mp'
       
+  - name: 'clanker'
+    contacts: 'https://github.com/JoyfulReaper'
+    wireguard:
+      endpoint_address: '142.4.38.224'
+      endpoint_port: '21732'
+      public_key: '5xlyXAI3LFWdqsk8AGe8lk5gjI19d0Wl2BTdV7GprXg='
+    address:
+      ipv6: 'fe80::425'
+    bgp:
+      asn: '4242420425'
+      session: 'mp'
+      
