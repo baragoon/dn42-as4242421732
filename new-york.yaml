@@ -90,7 +90,7 @@ dn42_peers:
   - name: 'clanker'
     contacts: 'https://github.com/JoyfulReaper'
     wireguard:
-      endpoint_address: '142.4.38.224'
+      endpoint_address: 'clanker.kgivler.com'
       endpoint_port: '21732'
       public_key: '5xlyXAI3LFWdqsk8AGe8lk5gjI19d0Wl2BTdV7GprXg='
     address:
