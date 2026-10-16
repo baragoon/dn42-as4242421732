@@ -278,3 +278,16 @@ dn42_peers:
     bgp:
       asn: '4242420842'
       session: 'mp'
+
+  - name: 'slop'
+    contacts: 'slop@freifick.net'
+    wireguard:
+      endpoint_address: '45.150.123.24'
+      endpoint_port: '20125'
+      public_key: 'sgYSxYeBQX9IMbcj7zv6UxYYq7QQPDfMdaxHFlTeckY='
+    address:
+      ipv6: 'fe80::125'
+    bgp:
+      asn: '4242420125'
+      session: 'mp'
+
