@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "assignees": ["baragoon"],
+  "extends": [
+    "config:best-practices",
+    ":semanticCommits"
+  ]
+}
