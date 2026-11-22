@@ -13,6 +13,7 @@ braces = "enable"
 brackets = "enable"
 colons = "enable"
 commas = "enable"
+comments = "disable"
 document-end = "disable"
 document-start = "disable"
 empty-lines = "enable"
@@ -29,9 +30,6 @@ octal-values = "disable"
 quoted-strings = "disable"
 trailing-spaces = "enable"
 truthy = "disable"
-
-[lint.rules.comments]
-level = "warning"
 
 [lint.rules.comments-indentation]
 level = "warning"
