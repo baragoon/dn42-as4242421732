@@ -138,3 +138,15 @@ dn42_peers:
     bgp:
       asn: '4242421573'
       session: 'mp'
+
+  - name: 'nl-hou01.dn42.oscarr.nl'
+    contacts: 'oscar+dn42@oscarr.nl'
+    wireguard:
+      endpoint_address: 'nl-hou01.dn42.oscarr.nl'
+      endpoint_port: '21732'
+      public_key: 'zEwMo7KVp0f45gx+L59teSH+8erk43kP2lSMWmjh7QI='
+    address:
+      ipv6: 'fe80::3818'
+    bgp:
+      asn: '4242423818'
+      session: 'ipv6'
