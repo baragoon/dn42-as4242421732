@@ -4,5 +4,11 @@
   "extends": [
     "config:best-practices",
     ":semanticCommits"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["actions/jekyll-build-pages"],
+      "abandonmentThreshold": "3 years"
+    }
   ]
 }
