@@ -10,6 +10,6 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v7.0.1
       - name: lint yaml files
-        uses: owenlamont/ryl-action@v0.26.1
+        uses: owenlamont/ryl-action@dcde2372477893a97407839dfa0576b6d9ebf0bd # v0.30.0
         with:
           args: check .
