@@ -8,7 +8,7 @@ jobs:
       contents: read
     steps:
       - name: checkout repository
-        uses: actions/checkout@v7.0.1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: lint yaml files
         uses: owenlamont/ryl-action@dcde2372477893a97407839dfa0576b6d9ebf0bd # v0.30.0
         with:
