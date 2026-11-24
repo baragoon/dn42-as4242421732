@@ -144,7 +144,7 @@ dn42_peers:
     wireguard:
       endpoint_address: 'nl-hou01.dn42.oscarr.nl'
       endpoint_port: '21732'
-      public_key: 'zEwMo7KVp0f45gx+L59teSH+8erk43kP2lSMWmjh7QI='
+      public_key: 'oscrxfobHgtewi+xMJQPNNSEpbBi4XilU7upqJ6Xi2w='
     address:
       ipv6: 'fe80::3818'
     bgp:
