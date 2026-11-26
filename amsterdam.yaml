@@ -156,7 +156,7 @@ dn42_peers:
     wireguard:
       endpoint_address: '2a02:a45c:9352:edcb::'
       endpoint_port: '23141'
-      public_key: 'nnvCZ399aKs5MefehnQz7emkEbZHEEPL+tdd5yupLlM=
+      public_key: 'nnvCZ399aKs5MefehnQz7emkEbZHEEPL+tdd5yupLlM='
     address:
       ipv6: 'fe80::3171'
     bgp:
