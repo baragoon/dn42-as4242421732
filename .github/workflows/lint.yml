@@ -1,6 +1,7 @@
 name: lint
 on:
   pull_request:
+  push:
 jobs:
   checks:
     runs-on: ubuntu-latest
