@@ -150,3 +150,15 @@ dn42_peers:
     bgp:
       asn: '4242423818'
       session: 'ipv6'
+
+  - name: 'omekoos'
+    contacts: 'kuberkoos@gmail.com'
+    wireguard:
+      endpoint_address: '2a02:a45c:9352:edcb::'
+      endpoint_port: '23141'
+      public_key: 'nnvCZ399aKs5MefehnQz7emkEbZHEEPL+tdd5yupLlM=
+    address:
+      ipv6: 'fe80::3171'
+    bgp:
+      asn: '4242423171'
+      session: 'mp'
